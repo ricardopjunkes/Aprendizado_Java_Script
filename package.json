@@ -1,0 +1,27 @@
+{
+  "name": "javascript_aprendizaco",
+  "version": "1.0.0",
+  "description": "Repositório criado para armazenar exercícios, exemplos e anotações durante o aprendizado da linguagem JavaScript.",
+  "main": "index.js",
+"scripts": {
+  "start": "node --env-file .env src/script.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardopjunkes/Aprendizado_Java_Script.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module" ,
+  "bugs": {
+    "url": "https://github.com/ricardopjunkes/Aprendizado_Java_Script/issues"
+  },
+  "homepage": "https://github.com/ricardopjunkes/Aprendizado_Java_Script#readme",
+  "dependencies": {
+    "@clack/prompts": "^1.8.1",
+    "chalk": "^6.0.0"
+  }
+}
